@@ -40,7 +40,7 @@
         "tags": [
           "User and Authentication"
         ],
-        "operationId": "Login",
+        "operationId": "User_Login",
         "parameters": [
           {
             "name": "body",
@@ -78,7 +78,7 @@
         "tags": [
           "User and Authentication"
         ],
-        "operationId": "CreateUser",
+        "operationId": "User_CreateUser",
         "parameters": [
           {
             "name": "body",
@@ -116,7 +116,7 @@
             "Token": []
           }
         ],
-        "operationId": "GetCurrentUser",
+        "operationId": "User_GetCurrentUser",
         "responses": {
           "200": {
             "description": "OK",
@@ -146,7 +146,7 @@
             "Token": []
           }
         ],
-        "operationId": "UpdateCurrentUser",
+        "operationId": "User_UpdateCurrentUser",
         "parameters": [
           {
             "name": "body",
@@ -184,7 +184,7 @@
         "tags": [
           "Profile"
         ],
-        "operationId": "GetProfileByUsername",
+        "operationId": "User_GetProfileByUsername",
         "parameters": [
           {
             "name": "username",
@@ -225,7 +225,7 @@
             "Token": []
           }
         ],
-        "operationId": "FollowUserByUsername",
+        "operationId": "User_FollowUserByUsername",
         "parameters": [
           {
             "name": "username",
@@ -264,7 +264,7 @@
             "Token": []
           }
         ],
-        "operationId": "UnfollowUserByUsername",
+        "operationId": "User_UnfollowUserByUsername",
         "parameters": [
           {
             "name": "username",
@@ -305,7 +305,7 @@
             "Token": []
           }
         ],
-        "operationId": "GetArticlesFeed",
+        "operationId": "Article_GetArticlesFeed",
         "parameters": [
           {
             "name": "limit",
@@ -350,7 +350,7 @@
         "tags": [
           "Articles"
         ],
-        "operationId": "GetArticles",
+        "operationId": "Article_GetArticles",
         "parameters": [
           {
             "name": "tag",
@@ -419,7 +419,7 @@
             "Token": []
           }
         ],
-        "operationId": "CreateArticle",
+        "operationId": "Article_CreateArticle",
         "parameters": [
           {
             "name": "article",
@@ -457,7 +457,7 @@
         "tags": [
           "Articles"
         ],
-        "operationId": "GetArticle",
+        "operationId": "Article_GetArticle",
         "parameters": [
           {
             "name": "slug",
@@ -493,7 +493,7 @@
             "Token": []
           }
         ],
-        "operationId": "UpdateArticle",
+        "operationId": "Article_UpdateArticle",
         "parameters": [
           {
             "name": "slug",
@@ -541,7 +541,7 @@
             "Token": []
           }
         ],
-        "operationId": "DeleteArticle",
+        "operationId": "Article_DeleteArticle",
         "parameters": [
           {
             "name": "slug",
@@ -574,7 +574,7 @@
         "tags": [
           "Comments"
         ],
-        "operationId": "GetArticleComments",
+        "operationId": "Comment_GetArticleComments",
         "parameters": [
           {
             "name": "slug",
@@ -613,7 +613,7 @@
             "Token": []
           }
         ],
-        "operationId": "CreateArticleComment",
+        "operationId": "Comment_CreateArticleComment",
         "parameters": [
           {
             "name": "slug",
@@ -663,7 +663,7 @@
             "Token": []
           }
         ],
-        "operationId": "DeleteArticleComment",
+        "operationId": "Comment_DeleteArticleComment",
         "parameters": [
           {
             "name": "slug",
@@ -708,7 +708,7 @@
             "Token": []
           }
         ],
-        "operationId": "CreateArticleFavorite",
+        "operationId": "Favorite_CreateArticleFavorite",
         "parameters": [
           {
             "name": "slug",
@@ -747,7 +747,7 @@
             "Token": []
           }
         ],
-        "operationId": "DeleteArticleFavorite",
+        "operationId": "Favorite_DeleteArticleFavorite",
         "parameters": [
           {
             "name": "slug",
